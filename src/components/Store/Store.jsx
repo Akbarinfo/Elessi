@@ -15,10 +15,6 @@ const Store = create((set) => ({
   cartId: (ids) =>
     set((state) => ({id: ids})),
 
-  // function
-  // myCartAdd: (ids) =>
-  //   set((state) => ({myCartObj: [...state.myCartObj, ...state.data.filter(item => item.id === ids)]})),
-
   //function Mycart add qilsh
   myCartAdd: (ids) =>
     set(

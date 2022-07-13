@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
-import Store from "../../Store/Store";
 import ProductItem from "./ProductItem";
 
 export default function Products() {

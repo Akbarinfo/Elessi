@@ -14,9 +14,11 @@
   }
 
   &__list {
+    height: 428px;
     list-style-type: none;
     padding-top: 20px;
     margin-bottom: 30px;
+    overflow-y: auto;
   }
 
   &__item {
@@ -168,6 +170,7 @@
   }
 
   &__tprice-desc {
+    position: relative;
     font-size: 14.5px;
     line-height: 1.4;
     color: #333;
@@ -182,6 +185,13 @@
   &__tprice-strong {
     font-weight: 500;
     text-transform: uppercase;
+  }
+
+  &__tprice-icon {
+    position: absolute;
+    top: -1px;
+    font-size: 23px;
+    color: #6bad0d;
   }
 
   &__cartbtn,

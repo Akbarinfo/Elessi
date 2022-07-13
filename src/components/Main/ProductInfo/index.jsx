@@ -16,7 +16,7 @@ export default function ProductInfo() {
             {Object.map((item, i)=> {
                 if(item.id == location.pathname.split("/").at(-1) ) {
                     return  <li key={i+324} className='violet__item'>
-                <div style={{display:'flex', flexDirection: 'column', width:'50%'}}>
+                <div style={{display:'flex', flexDirection: 'column', width:'50%', height: "80vh", overflowY: "auto"}}>
                     {item.img.map((i, j) => {
                         return (<img key={j + 1236} className='violet__item-img' src={i} alt="img" />)
                     })}
