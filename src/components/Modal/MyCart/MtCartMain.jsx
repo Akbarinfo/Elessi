@@ -99,7 +99,7 @@ export default function MyCartMain() {
             <span className="mycart__tprice-rangespan">{percentage >= 100 ? 100 : percentage}%</span>
           </div>
         </div>
-        <p onClick={fire} className="mycart__tprice-desc">{subtotal >= 200 ? <span><i className='mycart__tprice-icon bx bx-check-circle'></i><span className="ms-4">Congratulations! You've got free shipping.</span> </span> : <span> Spend <span className="mycart__tprice-price">${200 - subtotal}</span> more to reach <span className="mycart__tprice-strong">Free shipping!</span> </span> }</p>
+        <p className="mycart__tprice-desc">{subtotal >= 200 ? <span><i className='mycart__tprice-icon bx bx-check-circle'></i><span className="ms-4">Congratulations! You've got free shipping.</span> </span> : <span> Spend <span className="mycart__tprice-price">${200 - subtotal}</span> more to reach <span className="mycart__tprice-strong">Free shipping!</span> </span> }</p>
       </div>
 
 
